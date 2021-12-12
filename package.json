@@ -1,0 +1,22 @@
+{
+  "name": "ohmyfoodp3",
+  "version": "1.0.0",
+  "description": "Mon projet 3 OpenClassrooms ohmyfood",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fariben06/ohmyfoodP3.git"
+  },
+  "author": "farid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fariben06/ohmyfoodP3/issues"
+  },
+  "homepage": "https://github.com/fariben06/ohmyfoodP3#readme",
+  "devDependencies": {
+    "sass": "^1.45.0"
+  }
+}
