@@ -1,24 +1,45 @@
 @use "../utils/box-shadow";
 @use "../utils/zoom";
-
+@use "../utils/variables";
+@use "../utils/colors";
 .tuto {
-    & ol {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 1rem;
-        @media (max-width: 800px) {
+counter-reset: steps;
+& ol {
+        display: flex;      
+        gap: 2rem;
+        @media (max-width: 1000px) {
             flex-direction: column;
         }
     }
     & li {
+        position: relative;
+        &::before{
+            content: counter(steps);
+            counter-increment: steps;
+            color: white;
+            background-color: colors.$purple;
+            width: 2 * variables.$tuto-bullet-height;
+            height: 2 * variables.$tuto-bullet-height;
+            display: grid;
+            place-items: center;
+            border-radius: 50%;
+            position: absolute;
+            bottom: variables.$tuto-bullet-height;
+            left: -1 * variables.$tuto-bullet-height;
+        }
+        list-style-type: none;
         background-color: #f6f6f6;
-        padding: 1rem 2rem;
-        border:1px solid red
-        flex-grow 1;
+        padding: 1.5rem 2rem;
+        flex-grow: 1;
         border-radius: 1rem;
         @include box-shadow.base-shadow;
         &:hover {
             @include zoom.transform-zoom;
         }
+& i.fas {
+    margin-right: 1rem;
+    color: colors.$lightgrey;
+    font-size: 1.5rem;
+}
     }
 }
