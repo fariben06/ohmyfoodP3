@@ -16,7 +16,5 @@
     "url": "https://github.com/fariben06/ohmyfoodP3/issues"
   },
   "homepage": "https://github.com/fariben06/ohmyfoodP3#readme",
-  "devDependencies": {
-    "sass": "^1.45.0"
-  }
+  "devDependencies": {}
 }
