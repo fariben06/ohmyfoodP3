@@ -1,19 +1,20 @@
-@use "../utils/box-shadow";
-@use "../utils/zoom";
+@use "../utils/mixins";
 @use "../utils/variables";
 @use "../utils/colors";
+
 .tuto {
 counter-reset: steps;
+margin-bottom: 2rem;
 & ol {
         display: flex;      
         gap: 2rem;
-        @media (max-width: 1000px) {
+        @media (max-width: variables.$breakpoint) {
             flex-direction: column;
         }
     }
     & li {
         position: relative;
-        &::before{
+        &::before {
             content: counter(steps);
             counter-increment: steps;
             color: white;
@@ -24,22 +25,23 @@ counter-reset: steps;
             place-items: center;
             border-radius: 50%;
             position: absolute;
-            bottom: variables.$tuto-bullet-height;
+            top: 50%;
             left: -1 * variables.$tuto-bullet-height;
+            transform: translateY(-50%);
         }
         list-style-type: none;
         background-color: #f6f6f6;
         padding: 1.5rem 2rem;
         flex-grow: 1;
         border-radius: 1rem;
-        @include box-shadow.base-shadow;
+        @include mixins.box-shadow;
         &:hover {
-            @include zoom.transform-zoom;
+            @include mixins.transform-zoom;
         }
-& i.fas {
-    margin-right: 1rem;
-    color: colors.$lightgrey;
-    font-size: 1.5rem;
-}
+        & i.fas {
+        margin-right: 1rem;
+        color: colors.$lightgrey;
+        font-size: 1.5rem;
     }
+  }
 }

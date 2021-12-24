@@ -9,38 +9,87 @@
     <script src="https://kit.fontawesome.com/54efc6e5b8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="homepage">
+    <div class="loader"></div>
     <header>
        <h1>ohmyfood</h1>
     </header>
 
-
-    <main>
-            <div class="city">
+    <div class="city">
             <i class="fas fa-map-marker-alt"></i>
             <h2>Paris, Belleville</h2>
             </div>
-
+    <main>
         <section class="explorer">
             <h2>Réservez le menu qui<br>vous convient</h2>
-            <p>Découvrez des restaurants d'exception, séléctionnés par nos soins </p>
+            <p>Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
             <button>Explorer nos restaurants</button>
-
-            <div class="gradient">
+            <div class="gradient">  
 
             </div> 
         </section>
+
         <section class="tuto">
             <h2>Fonctionnement</h2>
             <ol>
                 <li><i class="fas fa-mobile-alt"></i>Choisissez un restaurant</li>
-                
                 <li><i class="fas fa-list-ul"></i>Composez votre menu</li>
-                
-                 <li><i class="fas fa-store"></i>Dégustez au restaurant</li>               
+                <li><i class="fas fa-store"></i>Dégustez au restaurant</li>  
             </ol>
         </section>
+    
+        <section class="menus">
+            <h2>Restaurants</h2>
+            <div class="menus__cards">
+            <a href="./pages/resto-1.html" class="card new">
+                <div class="card__image card__image-1"></div>
+                <div class="card__description">
+                    <h3>La palette du goût</h3>
+                    <p>Ménilmontant</p>
+                </div>
+            </a>
+            <a href="#" class="card new">
+                <div class="card__image card__image-2"></div>
+                <div class="card__description">
+                    <h3>La note enchantée</h3>
+                    <p>Charonne</p>
+                </div>
+            </a>
+            <a href="#" class="card new">
+                <div class="card__image card__image-3"></div>
+                <div class="card__description">
+                    <h3>À la française</h3>
+                    <p>Cité Rouge</p>
+                </div>
+            </a>
+            <a href="#" class="card new">
+                <div class="card__image card__image-4"></div>
+                <div class="card__description">
+                    <h3>Le Délice des sens</h3>
+                    <p>Folie-Méricourt</p>
+                </div>
+            </a>
+            </div>
+        </section>
     </main>
+    <footer>
+        <h2>ohmyfood</h2>
+      <ul class="footer_list">
+        <li>
+            <i class="fas fa-utensils"></i>
+            <a>Proposer un restaurant</a>
+        </li>
+        <li>
+            <i class="fas fa-hands-helping"></i>
+            <a>Devenir partenaire</a>
+        </li>
+        <li>
+            <a>Mention légales</a>
+        </li>
+        <li>
+            <a href="mailto:contact@ohmyfood.com">Contact</a>
+        </li>           
+      </ul>
+    </footer>
  </body>
-
 </html>

@@ -10,11 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/fariben06/ohmyfoodP3.git"
   },
-  "author": "farid",
+  "author": "farid Benhamouda",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/fariben06/ohmyfoodP3/issues"
   },
   "homepage": "https://github.com/fariben06/ohmyfoodP3#readme",
-  "devDependencies": {}
+  "devDependencies": {
+    "url-loader": "^4.1.1"
+  }
 }
