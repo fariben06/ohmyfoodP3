@@ -14,6 +14,8 @@ margin-bottom: 2rem;
     }
     & li {
         position: relative;
+        display: flex;
+        align-items: center;
         &::before {
             content: counter(steps);
             counter-increment: steps;
@@ -37,6 +39,10 @@ margin-bottom: 2rem;
         @include mixins.box-shadow;
         &:hover {
             @include mixins.transform-zoom;
+            background-color: lighten(colors.$purple, 35%);
+            i {
+                color: colors.$purple;
+            }
         }
         & i.fas {
         margin-right: 1rem;
