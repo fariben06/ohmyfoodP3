@@ -9,7 +9,7 @@
 @mixin box-shadow  {
     box-shadow: 2px 1px 8px -3px colors.$lightgrey;
 }
-@mixin transform-zoom($zoom-level: 1.02, $transformation: none) {
+@mixin transform-zoom($zoom-level: 1.02, $transformation: null) {
    transform: $transformation scale($zoom-level);
 }
 

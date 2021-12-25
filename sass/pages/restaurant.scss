@@ -113,10 +113,11 @@ body {
       width: $button-width;
       transition: margin-right 0.5s;
       i {
+        $size: 1rem;
         display: grid;
         place-content: center;
         background: white;
-        aspect-ratio: 1;
+        height: $size;
         width: 2rem;
         border-radius: 1rem;
         color: colors.$color-tertiary

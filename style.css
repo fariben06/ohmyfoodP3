@@ -65,6 +65,7 @@ h2 {
 
 .explorer {
   text-align: center;
+  margin: 2rem;
   background-color: #fafafa;
   padding: 2rem;
   margin: 0;
@@ -166,7 +167,7 @@ h2 {
   transform: translateY(-50%);
 }
 .tuto li:hover {
-  transform: none scale(1.02);
+  transform: scale(1.02);
 }
 .tuto li i.fas {
   margin-right: 1rem;
@@ -484,7 +485,7 @@ body {
   display: grid;
   place-content: center;
   background: white;
-  aspect-ratio: 1;
+  height: 1rem;
   width: 2rem;
   border-radius: 1rem;
   color: #99E2D0;
