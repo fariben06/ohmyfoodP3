@@ -28,6 +28,7 @@ h5,
 h6,
 p {
   padding: 0;
+  margin: 0;
 }
 
 a {
@@ -52,13 +53,12 @@ header {
   gap: 1rem;
   background-color: #f3f3f3;
   text-align: center;
-  padding: 0.5rem;
+  padding: 1rem;
 }
 .city i {
   font-size: 1.2rem;
 }
-
-h2 {
+.city h2 {
   font-size: 1rem;
 }
 
@@ -172,6 +172,9 @@ h2 {
   background-color: #f2eafb;
 }
 .tuto li:hover i {
+  color: #9356dc;
+}
+.tuto li:hover i.fas {
   color: #9356dc;
 }
 .tuto li i.fas {
@@ -491,7 +494,7 @@ body {
   display: grid;
   place-content: center;
   background: white;
-  height: 1rem;
+  height: 2rem;
   width: 2rem;
   border-radius: 1rem;
   color: #99E2D0;

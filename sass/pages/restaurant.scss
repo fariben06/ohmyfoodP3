@@ -117,7 +117,7 @@ body {
         display: grid;
         place-content: center;
         background: white;
-        height: $size;
+        height: 2rem;
         width: 2rem;
         border-radius: 1rem;
         color: colors.$color-tertiary
@@ -145,4 +145,3 @@ body {
     }
   }
 }
-

@@ -44,10 +44,13 @@ margin-bottom: 2rem;
                 color: colors.$purple;
             }
         }
+        &:hover i.fas {
+            color: colors.$purple; 
+        }
         & i.fas {
         margin-right: 1rem;
         color: colors.$lightgrey;
         font-size: 1.5rem;
+      }
     }
   }
-}
