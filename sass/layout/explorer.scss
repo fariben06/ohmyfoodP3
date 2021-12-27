@@ -2,7 +2,6 @@
 @use "../utils/colors";
 .explorer {
     text-align: center;
-    margin: 2rem;
     background-color: #fafafa;
     padding: 2rem;
     margin: 0;
@@ -33,11 +32,11 @@
   $animation-count forwards;
   transform-origin: top;
   &::after {
-    content: "ohmyfood";
+    content: "";
     height: 100px;
     width: 100px;
     border-right: 5px solid transparent;
-    border-top: 5px solid colors.$purple;
+    border-top: 10px solid colors.$purple;
     border-radius: 50%;
     animation: spin $animation-duration ease-in-out;
     animation-iteration-count: $animation-count;

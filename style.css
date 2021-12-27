@@ -64,7 +64,6 @@ header {
 
 .explorer {
   text-align: center;
-  margin: 2rem;
   background-color: #fafafa;
   padding: 2rem;
   margin: 0;
@@ -80,11 +79,11 @@ header {
   color: white;
   font-weight: 300;
   font-size: 1.1rem;
-  padding: 1rem 2rem;
+  padding: 1rem 3rem;
   border: none;
   border-radius: 2rem;
   transition: transform 200ms;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   cursor: pointer;
   box-shadow: 2px 1px 8px -3px #7e7e7e;
   background-image: linear-gradient(to top, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
@@ -108,11 +107,11 @@ header {
   transform-origin: top;
 }
 .loader::after {
-  content: "ohmyfood";
+  content: "";
   height: 100px;
   width: 100px;
   border-right: 5px solid transparent;
-  border-top: 5px solid #9356dc;
+  border-top: 10px solid #9356dc;
   border-radius: 50%;
   animation: spin 1s ease-in-out;
   animation-iteration-count: 3;
@@ -245,8 +244,8 @@ header {
   font-family: "Font Awesome 5 Free";
   font-weight: 400;
   content: "\f004";
-  font-size: 2rem;
-  right: 1rem;
+  font-size: 1.4rem;
+  right: 2rem;
   top: 50%;
   transform: translateY(-50%);
   color: inherit;
@@ -265,8 +264,8 @@ header {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   content: "\f004";
-  font-size: 2rem;
-  right: 1rem;
+  font-size: 1.4rem;
+  right: 2rem;
   top: 50%;
   transform: translateY(-50%);
   color: transparent;
@@ -328,6 +327,7 @@ footer .footer_list li {
 }
 body {
   background-color: #f6f6f6;
+  font-size: smaller;
 }
 
 #page-resto header:hover::before {
@@ -362,6 +362,7 @@ body {
 #page-resto .resto__title h2 {
   font-family: "shrikhand", "cursive";
   padding: 2rem 1rem;
+  padding-left: 1.6rem;
   position: relative;
   background-color: white;
   border-radius: 0 0 1rem 1rem;
@@ -378,8 +379,8 @@ body {
   font-family: "Font Awesome 5 Free";
   font-weight: 400;
   content: "\f004";
-  font-size: 2rem;
-  right: 1rem;
+  font-size: 1.4rem;
+  right: 2rem;
   top: 50%;
   transform: translateY(-50%);
   color: inherit;
@@ -398,8 +399,8 @@ body {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   content: "\f004";
-  font-size: 2rem;
-  right: 1rem;
+  font-size: 1.4rem;
+  right: 2rem;
   top: 50%;
   transform: translateY(-50%);
   color: transparent;
@@ -428,6 +429,7 @@ body {
 }
 #page-resto .menus h3 {
   text-transform: uppercase;
+  margin-left: 0.6rem;
   font-weight: 400;
   position: relative;
   margin-bottom: 1rem;
@@ -437,8 +439,8 @@ body {
   position: absolute;
   top: 1.5rem;
   left: 0;
-  height: 0.25rem;
-  width: 3rem;
+  height: 0.2rem;
+  width: 2.5rem;
   background-color: #99E2D0;
 }
 #page-resto .menus .menus__category {
@@ -525,11 +527,11 @@ body {
   color: white;
   font-weight: 300;
   font-size: 1.1rem;
-  padding: 1rem 2rem;
+  padding: 1rem 3rem;
   border: none;
   border-radius: 2rem;
   transition: transform 200ms;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   cursor: pointer;
   box-shadow: 2px 1px 8px -3px #7e7e7e;
   background-image: linear-gradient(to top, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
