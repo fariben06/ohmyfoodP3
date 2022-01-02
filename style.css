@@ -12,7 +12,7 @@ body {
 }
 
 main {
-  padding: 0 7rem;
+  padding: 0 2rem;
 }
 @media (max-width: 1000px) {
   main {
@@ -25,7 +25,12 @@ h2,
 h3,
 h4,
 h5,
-h6,
+h6 {
+  padding: 0;
+  margin: 0;
+  margin-bottom: inherit;
+}
+
 p {
   padding: 0;
   margin: 0;
@@ -65,12 +70,12 @@ header {
 
 .explorer {
   text-align: center;
-  background-color: #fafafa;
-  padding: 1rem;
+  padding-top: 1rem;
+  padding-block-end: 2rem;
   margin: 0;
 }
 .explorer h2 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin: 1rem;
 }
 .explorer p {
@@ -111,9 +116,11 @@ header {
   content: "";
   height: 100px;
   width: 100px;
-  border-right: 5px solid transparent;
-  border-top: 10px solid #9356dc;
-  border-radius: 50%;
+  border-right: 1px solid transparent;
+  border-top: 5px solid #9356dc;
+  border-bottom: 7px solid #99E2D0;
+  border-left: 8px solid rgba(255, 121, 218, 0.9);
+  border-radius: 100%;
   animation: spin 1s ease-in-out;
   animation-iteration-count: 3;
 }
@@ -131,10 +138,14 @@ header {
 .tuto {
   counter-reset: steps;
   margin-bottom: 2rem;
+  background-color: white;
+  padding-block-end: 4rem;
+  padding-top: 1.5rem;
 }
 .tuto ol {
   display: flex;
   gap: 2rem;
+  margin-right: 2rem;
 }
 @media (max-width: 1000px) {
   .tuto ol {
@@ -145,6 +156,7 @@ header {
   position: relative;
   display: flex;
   align-items: center;
+  font-weight: 900;
   list-style-type: none;
   background-color: #f6f6f6;
   padding: 1.5rem 2rem;
@@ -352,8 +364,9 @@ body {
 }
 #page-resto .banner img {
   display: block;
+  max-width: 100%;
+  max-height: 70vh;
   width: 100%;
-  height: 32vh;
   object-fit: cover;
   object-position: center;
 }
