@@ -6,20 +6,28 @@ this is the third project of OpenClassrooms
 https://openclassrooms.com/fr/courses/6106181-simplifiez-vous-le-css-avec-sass
 ---
 
-Technologies used: HTML, CSS, Keyframes, mixins,
+Technologies used:
+
+HTML, CSS, Keyframes, mixins,
+
 npm scripts
-PostCSS, Autoprefixer, CSSNano
+
 
 ---
 
 
 Identité graphique
+
 Polices
+
 Logo et titres: Shrikhand
+
 Texte: Roboto
+
 Couleurs
-Primaire Secondaire Tertiaire
-#9356DC #FF79DA #99E2D0
+
+Primaire     Secondaire      Tertiaire
+#9356DC      #FF79DA         #99E2D0
 ---
 
 
@@ -35,7 +43,7 @@ Contenu des pages
 
 Page d’accueil (x1)
 
-Affichage de la localisation des restaurants. À terme il sera possible de choisir sa
+Affichage de la localisation des restaurants. à terme il sera possible de choisir sa
 
 localisation pour trouver des restaurants proches d’un certain lieu.
 
