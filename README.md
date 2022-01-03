@@ -32,14 +32,6 @@ Primaire     Secondaire      Tertiaire
 ---
 
 
-Compatibilité
-La cible étant les personnes connectées et pressées, le site sera développé en utilisant
-l’approche mobile-first. Pour cette raison, seules des maquettes mobiles seront réalisées.
-Sur tablette et desktop, le site devra s’adapter, mais ces supports n’étant pas prioritaires,
-leur mise en page est libre.
----
-
-
 Contenu des pages
 
 Page d’accueil (x1)
