@@ -28,8 +28,12 @@ Texte: Roboto
 
 Couleurs
 
-Primaire     Secondaire      Tertiaire
-#9356DC      #FF79DA         #99E2D0
+Primaire #9356DC   
+
+Secondaire #FF79DA 
+           
+Tertiaire#99E2D0
+              
 
 ---
 
