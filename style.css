@@ -430,6 +430,7 @@ body {
 }
 #page-resto .resto-main {
   padding: 0 1rem;
+  padding-block-end: 3rem;
 }
 #page-resto .menus {
   display: grid;
