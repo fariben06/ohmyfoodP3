@@ -75,10 +75,10 @@ body {
   }
   .menus__category {
     overflow: hidden;
-  
+
+  //*** animation menu-item ***//
   .menu-item {
-    $numberOfItems: 3;
-    @for $i from 1 through $numberOfItems {
+    @for $i from 1 through 3 {
     &:nth-child(#{$i}) {
       animation-delay: 100ms * $i;
     }
@@ -91,6 +91,8 @@ body {
     @include mixins.box-shadow;
     animation: appear 1s;
     animation-fill-mode: both;
+    //*** fin de l'animation de menu-item ***//
+
     .menu-item__price {
       margin-left: auto;
       font-weight: 900;
@@ -98,6 +100,8 @@ body {
       display: flex;
       align-items: flex-end;
     }
+    //*** l’intitulé du plat est trop long, inclure overflow:hidden, white-space: nowrap, text-overflow:ellipsis, pour rogné avec des points de suspension ***//
+    
     .menu-item__description {
       padding: 1rem;
       overflow: hidden;
@@ -108,6 +112,7 @@ body {
         text-overflow: ellipsis; 
       }
     }
+    //*** animation check ***//
     .menu-item__check {
       display: grid;
       place-items: center;
@@ -142,6 +147,7 @@ body {
     } 
    }
   }
+  //*** fin de l'animation check ***//
   .order {
     height: 20vh;
     display: grid;

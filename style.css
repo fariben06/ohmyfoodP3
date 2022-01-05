@@ -116,11 +116,9 @@ header {
   content: "";
   height: 100px;
   width: 100px;
-  border-right: 1px solid transparent;
+  border-right: 5px solid transparent;
   border-top: 5px solid #9356dc;
-  border-bottom: 7px solid #99E2D0;
-  border-left: 8px solid rgba(255, 121, 218, 0.9);
-  border-radius: 100%;
+  border-radius: 50%;
   animation: spin 1s ease-in-out;
   animation-iteration-count: 3;
 }
@@ -320,14 +318,6 @@ footer .footer_list li {
   margin-top: 0;
 }
 
-@keyframes appear {
-  0% {
-    transform: scale(0);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
 @keyframes appear {
   0% {
     transform: translateY(50%);

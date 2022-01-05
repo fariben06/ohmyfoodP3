@@ -12,7 +12,7 @@
 @mixin transform-zoom($zoom-level: 1.02, $transformation: null) {
    transform: $transformation scale($zoom-level);
 }
-
+//** le bouton J’aime en forme de cœur est présent sur la maquette. Au clic, il devra se remplir progressivement**//
 
 @mixin font-awesome ($font-weight: 400) {
   display: inline-block;
@@ -38,7 +38,7 @@
     opacity: $opacity;
     transition: all 200ms ease-in-out;
 }
-
+//*** animation heart ***//
 @mixin heart-animated {
 position: relative;
 background-color: white;
@@ -55,7 +55,7 @@ border-radius: 0 0 1rem 1rem;
   transform: translateY(-50%) scale(1.1);
 }
 }  
- 
+ //*** animation button ***//
 @mixin base-button {
   color: white;
   font-weight: 300;

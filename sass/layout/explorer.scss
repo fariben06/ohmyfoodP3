@@ -18,6 +18,7 @@
      font-size: 1rem;
   }
 }
+//*** loading spinner apparaître pendant 3 secondes quand on arrive sur la page d'accueil ***//
 .loader {
   $animation-duration: 1s;
   $animation-count: 3;
@@ -36,11 +37,9 @@
     content: "";
     height: 100px;
     width: 100px;
-    border-right: 1px solid transparent;
+    border-right: 5px solid transparent;
     border-top: 5px solid colors.$purple;
-    border-bottom: 7px solid  #99E2D0;
-    border-left: 8px solid rgba(255, 121, 218, 0.9);
-    border-radius: 100%;
+    border-radius: 50%;
     animation: spin $animation-duration ease-in-out;
     animation-iteration-count: $animation-count;
   }
