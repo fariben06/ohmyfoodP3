@@ -114,11 +114,11 @@ header {
 }
 .loader::after {
   content: "";
-  height: 100px;
-  width: 100px;
-  border-right: 5px solid transparent;
-  border-top: 5px solid #9356dc;
+  height: 80px;
+  width: 80px;
+  border: 8px solid #9356dc;
   border-radius: 50%;
+  border-top: 8px solid rgba(255, 121, 218, 0.9);
   animation: spin 1s ease-in-out;
   animation-iteration-count: 3;
 }

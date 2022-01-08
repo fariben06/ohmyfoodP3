@@ -35,11 +35,11 @@
   transform-origin: top;
   &::after {
     content: "";
-    height: 100px;
-    width: 100px;
-    border-right: 5px solid transparent;
-    border-top: 5px solid colors.$purple;
+    height: 80px;
+    width: 80px;
+    border: 8px solid colors.$purple;
     border-radius: 50%;
+    border-top: 8px solid rgba(255,121,218, .9);
     animation: spin $animation-duration ease-in-out;
     animation-iteration-count: $animation-count;
   }
