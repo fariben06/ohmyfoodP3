@@ -19,6 +19,9 @@
   }
 }
 //*** loading spinner apparaître pendant 3 secondes quand on arrive sur la page d'accueil ***//
+//*** l'animation fil-mode = forwards ***//
+//*** inset est une propriété raccourcie permettant de définir les propriétés top, right, bottom et/ou left ***//
+//*** z-index Généralement, un élément couvre un autre élément si sa valeur z-index est supérieure à celle du deuxième élément **//
 .loader {
   $animation-duration: 1s;
   $animation-count: 3;
