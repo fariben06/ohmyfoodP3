@@ -76,7 +76,7 @@ body {
   .menus__category {
     overflow: hidden;
 
-  //*** animation menu-item ***//
+  //*** animation appear "menu-item" Voici une façon scss de le faire en utilisant une boucle for ***//
   .menu-item {
     @for $i from 1 through 3 {
     &:nth-child(#{$i}) {
@@ -91,7 +91,7 @@ body {
     @include mixins.box-shadow;
     animation: appear 1s;
     animation-fill-mode: both;
-    //*** fin de l'animation de menu-item ***//
+    //*** fin de l'animation appear de menu-item ***//
 
     .menu-item__price {
       margin-left: auto;
