@@ -39,7 +39,7 @@
   }
   @for $i from 1 through 4 {
     &__image-#{$i} {
-        background-image: url("../../assets/menu-#{$i}.jpg");
+        background-image: url("../assets/menu-#{$i}.jpg");
     }
   }
 &__description {
